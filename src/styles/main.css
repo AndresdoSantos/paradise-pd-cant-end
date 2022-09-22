@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  body::-webkit-scrollbar {
+    width: 4px;
+    background: #292929;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #141414;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: #52525b;
+  }
+}
